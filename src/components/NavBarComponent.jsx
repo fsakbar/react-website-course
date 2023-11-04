@@ -30,7 +30,7 @@ export default function NavBarComponent() {
     <div>
     <Navbar expand="lg" className={changeColor ? "color-active": ""}>
       <Container>
-        <Navbar.Brand href="" className='fs-3 fw-bold'>Ngoding.</Navbar.Brand>
+        <Navbar.Brand href="/" className='fs-3 fw-bold'>CodingWithU.</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-center">
